@@ -58,7 +58,7 @@ skip-host-cache
 skip-name-resolve
 ```
 
-###Configuration script
+### Configuration script
 Next we create a configuration shell script which we would run in an seperate image
 
 mysql_connector.sh
@@ -123,7 +123,7 @@ echo MYSQL01_IP       : mysqlmaster
 echo MYSQL02_IP       : mysqlslave
 ```
 
-###Testing the setup
+### Testing the setup
 ```
 $ docker-compose up -d
 $ docker-compose logs -f mysqlconfigure
